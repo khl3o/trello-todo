@@ -2,7 +2,7 @@
 
 Usage:
 
-* Add git branch name in trello card description
+* Add git branch name in Trello card description
 * Type "todo" on terminal to get the card checklists
 
 ![alt text](https://github.com/khl3o/trello-todo-cli/blob/master/readme_src/trello.png)
@@ -13,7 +13,7 @@ Usage:
 
 * PHP installed on the system
 
-# Install
+# Install (Linux/macOS)
 
 * Clone the repo where you want 
 * Add execution rights to exec.sh: `chmod +x exec.sh`
