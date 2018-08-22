@@ -2,6 +2,10 @@
 
 require('config.php');
 
+if ( !isset($argv[1]) ) {
+ die;
+}
+
 $branch = $argv[1];
 
 $json = file_get_contents("https://api.trello.com/1/boards/".$board."/cards/visible?key=".$key."&token=".$token);
@@ -38,6 +42,8 @@ foreach ($cards AS $card) {
       $checklists[] = $checklistArray;
 
     }
+
+    break;
 
   }
 
