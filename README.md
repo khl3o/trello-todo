@@ -21,3 +21,5 @@ Usage:
   * open ~/.bashrc (or ~/.zshrc)
   * add the following alias: `alias todo="YOUR_PATH/trello-cli/exec.sh"`
   * reload: `source ~/.bashrc`
+* Create config.php from config.php.sample
+* Set the trello key, token and board id (https://trello.com/app-key)
